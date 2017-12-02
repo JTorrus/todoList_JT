@@ -2,3 +2,8 @@
 d1b909,::1,GET,http://localhost/todolist/web/app_dev.php/edit,1512177650,5094ec,200
 5094ec,::1,GET,http://localhost/todolist/web/app_dev.php/edit,1512177650,,404
 c7a411,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512177658,,200
+4e2fc4,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512178028,,200
+790440,::1,GET,http://localhost/todolist/web/app_dev.php/list,1512178033,,200
+749ffa,::1,GET,http://localhost/todolist/web/app_dev.php/remove,1512178037,,200
+1e42f0,::1,GET,http://localhost/todolist/web/app_dev.php/create,1512178307,,200
+0f9828,::1,POST,http://localhost/todolist/web/app_dev.php/create,1512178318,,200
