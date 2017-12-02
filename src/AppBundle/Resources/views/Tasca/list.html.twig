@@ -2,6 +2,10 @@
 
 {% block title %}AppBundle:Tasca:list{% endblock %}
 
+<!-- L'html twig del llistat es l'unic diferent dels quatre, per cada iteració que hi ha a totesTasques (l'Array
+d'objectes que obtenim de la base de dades) inserim una nova fila amb les columnes que mostren la id, el titol i la data
+de cadascuna dels elements, en cas de que no hi hagin objectes emmagatzemats, mostrarem un missatge a l'usuari-->
+
 {% block body %}
 <h1>Llistat de tasques</h1>
     <table border="1">

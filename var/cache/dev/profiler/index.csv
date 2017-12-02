@@ -95,3 +95,11 @@ ac8183,::1,POST,http://localhost/todolist/web/app_dev.php/remove,1512184735,,200
 3e4b7b,::1,GET,http://localhost/todolist/web/app_dev.php/remove,1512184831,,200
 3098f0,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512185554,,200
 4f3e77,::1,POST,http://localhost/todolist/web/app_dev.php/update,1512185575,,200
+268ff9,::1,GET,http://localhost/todolist/web/app_dev.php/create,1512187086,,200
+0f9818,::1,GET,http://localhost/todolist/web/app_dev.php/remove,1512187091,,200
+43161d,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512187096,,200
+9f5b80,::1,GET,http://localhost/todolist/web/app_dev.php/edi,1512187102,b0850a,200
+b0850a,::1,GET,http://localhost/todolist/web/app_dev.php/edi,1512187102,,404
+65f0eb,::1,GET,http://localhost/todolist/web/app_dev.php/edit,1512187105,7fb7e4,200
+7fb7e4,::1,GET,http://localhost/todolist/web/app_dev.php/edit,1512187106,,404
+2c47ab,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512187109,,200
