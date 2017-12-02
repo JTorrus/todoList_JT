@@ -45,8 +45,11 @@ class TascaController extends Controller
      */
     public function listAction()
     {
+        $repository = $this->getDoctrine()->getRepository(Tasca::class);
+        $products = $repository->findAll();
+
         return $this->render('AppBundle:Tasca:list.html.twig', array(
-            // ...
+            'totesTasques' => $products
         ));
     }
 

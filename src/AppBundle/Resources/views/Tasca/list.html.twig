@@ -4,4 +4,17 @@
 
 {% block body %}
 <h1>Welcome to the Tasca:list page</h1>
+    <table border="1">
+    {% for tasca in totesTasques %}
+        <tr>
+            <td><b>{{tasca.id}}</b></td>
+            <td><b>{{tasca.titol}}</b></td>
+            <td>{{tasca.data|date('Y-m-d H:i:s')}}</td>
+        </tr>
+    {% else %}
+        <tr>
+            <td>No hi han resultats disponibles</td>
+        </tr>
+    {% endfor %}
+    </table>
 {% endblock %}
