@@ -57,10 +57,37 @@ class TascaController extends Controller
     /**
      * @Route("/update")
      */
-    public function updateAction()
+    public function updateAction(Request $request)
     {
+        $tasca = new Tasca();
+
+        $form = $this->createFormBuilder($tasca)
+            ->add('id', IntegerType::class)
+            ->add('titol', TextType::class)
+            ->add('data', DateTimeType::class)
+            ->add('save', SubmitType::class, array('label' => 'Editar tasca'))
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $id = $form->get('id')->getData();
+            $titol = $form->get('titol')->getData();
+            $data = $form->get('data')->getData();
+
+            $em = $this->getDoctrine()->getManager();
+            $tasca = $em->getRepository(Tasca::class)->find($id);
+
+            if (!$tasca) {
+                throw $this->createNotFoundException('No hi ha cap tasca amb aquesta id');
+            } else {
+                $tasca->setTitol($titol);
+                $tasca->setData($data);
+                $em->flush();
+            }
+        }
         return $this->render('AppBundle:Tasca:update.html.twig', array(
-            // ...
+            'form' => $form->createView(),
         ));
     }
 

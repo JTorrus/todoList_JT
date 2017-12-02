@@ -93,3 +93,5 @@ ac8183,::1,POST,http://localhost/todolist/web/app_dev.php/remove,1512184735,,200
 86d5a3,::1,GET,http://localhost/todolist/web/app_dev.php/remove,1512184742,2d5820,200
 2d5820,::1,POST,http://localhost/todolist/web/app_dev.php/remove,1512184742,,404
 3e4b7b,::1,GET,http://localhost/todolist/web/app_dev.php/remove,1512184831,,200
+3098f0,::1,GET,http://localhost/todolist/web/app_dev.php/update,1512185554,,200
+4f3e77,::1,POST,http://localhost/todolist/web/app_dev.php/update,1512185575,,200
