@@ -6,6 +6,7 @@ use AppBundle\Entity\Tasca;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
+use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\HttpFoundation\Request;
@@ -66,10 +67,32 @@ class TascaController extends Controller
     /**
      * @Route("/remove")
      */
-    public function removeAction()
+    public function removeAction(Request $request)
     {
+        $tasca = new Tasca();
+
+        $form = $this->createFormBuilder($tasca)
+            ->add('id', IntegerType::class)
+            ->add('save', SubmitType::class, array('label' => 'Eliminar tasca'))
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $id = $form->get('id')->getData();
+            $em = $this->getDoctrine()->getManager();
+            $tasca = $em->getRepository(Tasca::class)->find($id);
+
+            if (!$tasca) {
+                throw $this->createNotFoundException('No hi ha cap tasca amb aquesta id');
+            } else {
+                $em->remove($tasca);
+                $em->flush();
+            }
+        }
+
         return $this->render('AppBundle:Tasca:remove.html.twig', array(
-            // ...
+            'form' => $form->createView(),
         ));
     }
 

@@ -8,10 +8,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/Y/X/kypos596TlK+jmMisbxc" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/Y/X/kypos596TlK+jmMisbxc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Tasca.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Tasca.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/create.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/create.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/list.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/remove.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/remove.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/update.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/update.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/+/U/A-ZRVPoYoH8EJKz33F+p" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/+/U/A-ZRVPoYoH8EJKz33F+p" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/A/J/0wMdEEkF+vUtYVrVUxa0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/A/J/0wMdEEkF+vUtYVrVUxa0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/M/8/-WA1k-aqL3GrDBmbxO4n" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/M/8/-WA1k-aqL3GrDBmbxO4n" />
@@ -19,7 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/S/B/Phycrcz7s++8nuci9S0i" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/S/B/Phycrcz7s++8nuci9S0i" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/U/H/lW6GbL4Sx-1kSW62fxVO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uCMoYFgNnG/U/H/lW6GbL4Sx-1kSW62fxVO" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe8e4878bf234ba9382a3b659712743454ea8eadf56457aae8ba73df7de28583.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe8e4878bf234ba9382a3b659712743454ea8eadf56457aae8ba73df7de28583.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +34,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TascaController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="318">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding>
+                <element signature="e#40#67#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +61,8 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -55,8 +71,28 @@
       <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remove.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/remove.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/update.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -65,8 +101,8 @@
       <file leaf-file-name="Tasca.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Tasca.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -81,9 +117,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Tasca.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/create.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/remove.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/update.html.twig" />
       </list>
     </option>
   </component>
@@ -95,8 +134,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="446" />
+    <option name="y" value="95" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -329,7 +368,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512177190144</updated>
       <workItem from="1512177192385" duration="22000" />
-      <workItem from="1512178060006" duration="932000" />
+      <workItem from="1512178060006" duration="6778000" />
     </task>
     <task id="LOCAL-00001" summary="Add task method created with view">
       <created>1512178436244</created>
@@ -345,17 +384,24 @@
       <option name="project" value="LOCAL" />
       <updated>1512178491350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add list method with view. (Create view fixed)">
+      <created>1512179016750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512179016750</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="954000" />
+    <option name="totallyTimeSpent" value="6800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="446" y="95" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -382,7 +428,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add task method created with view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add task method created with view" />
+    <MESSAGE value="Add list method with view. (Create view fixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add list method with view. (Create view fixed)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -409,33 +456,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Tasca.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/update.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/remove.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Tasca/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TascaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="318">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
