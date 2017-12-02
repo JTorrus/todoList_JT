@@ -86,7 +86,7 @@ class TascaController extends Controller
      * 5 - Tenim que entregar aquesta informació a la base de dades, recuperem el Manager per via del Doctrine
      * 6 - En aquest cas no volem trobar tots els objectes, si no aquell que coincideixi amb l'input del id de l'usuari amb
      * el mètode find
-     * 7 - Gràcies a això podrem comparar si existeix o no, en cas negatiu llançarem una excepció amb el missatge corresponent
+     * 7 - Gràcies a això podrem comparar si existeix o no, en cas negatiu retornarem una vista d'error amb el missatge corresponent
      * 8 - En cas positiu inserirem els valors al titol i la data del objecte i executarem la query per persistir l'objecte
      * 9 - Per últim retornem els valors de la vista al html.twig corresponent
      */
@@ -115,7 +115,9 @@ class TascaController extends Controller
             $tasca = $em->getRepository(Tasca::class)->find($id);
 
             if (!$tasca) {
-                throw $this->createNotFoundException('No hi ha cap tasca amb aquesta id');
+                return $this->render('AppBundle:Tasca:fail.html.twig', array(
+                    'form' => $form->createView(),
+                ));
             } else {
                 $tasca->setTitol($titol);
                 $tasca->setData($data);
@@ -139,7 +141,7 @@ class TascaController extends Controller
      * 5 - Tenim que entregar aquesta informació a la base de dades, recuperem el Manager per via del Doctrine
      * 6 - En aquest cas no volem trobar tots els objectes, si no aquell que coincideixi amb l'input del id de l'usuari amb
      * el mètode find
-     * 7 - Gràcies a això podrem comparar si existeix o no, en cas negatiu llançarem una excepció amb el missatge corresponent
+     * 7 - Gràcies a això podrem comparar si existeix o no, en cas negatiu retornarem una vista d'error amb el missatge corresponent
      * 8 - En cas positiu esborrarem l'objecte data que coincideix amb el que hi ha a la base de dades i
      * executarem la query per persistir l'objecte
      * 9 - Per últim retornem els valors de la vista al html.twig corresponent
@@ -164,7 +166,9 @@ class TascaController extends Controller
             $tasca = $em->getRepository(Tasca::class)->find($id);
 
             if (!$tasca) {
-                throw $this->createNotFoundException('No hi ha cap tasca amb aquesta id');
+                return $this->render('AppBundle:Tasca:fail.html.twig', array(
+                    'form' => $form->createView(),
+                ));
             } else {
                 $em->remove($tasca);
                 $em->flush();
