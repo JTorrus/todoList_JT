@@ -7,6 +7,31 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        <nav style="width: 100%; background-color: black">
+            <ul style="list-style-type: none">
+                <li style="display: inline-block; background-color: black">
+                    <a href="create" style="text-decoration: none; color:white">
+                        <span style="font-weight:bold">Crear</span>
+                    </a>
+                </li>
+                <li style="display: inline-block; background-color: black">
+                    <a href="update" style="text-decoration: none; color:white">
+                        <span style="font-weight:bold">Modificar</span>
+                    </a>
+                </li>
+                <li style="display: inline-block; background-color: black">
+                    <a href="list" style="text-decoration: none; color:white">
+                        <span style="font-weight:bold">Llistar</span>
+                    </a>
+                </li>
+                <li style="display: inline-block; background-color: black">
+                    <a href="remove" style="text-decoration: none; color:white">
+                        <span style="font-weight:bold">Eliminar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
